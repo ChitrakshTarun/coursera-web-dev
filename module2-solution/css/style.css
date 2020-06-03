@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap'); /* Font for Heading */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); /* Font for Text */
+/* Styles which apply across ALL screen regardless of Desktop/Tablet/Smartphone view */
+h1 { /* Heading styles */
+    font-family: 'Architects Daughter', cursive;
+    font-size: 43.75px;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+}
+.section { /* The three sections for the website. */
+    background-color: #999999;
+    border-color: #000000;
+    border-style: solid;
+    margin-bottom: 15px;
+}
+.head { /* Section Title - Text */
+    font-family: 'Architects Daughter', cursive;    
+    font-size: 31.25px;
+    margin-top: 0;
+    float: right;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+span { /* Section Title - Background */
+    display: inline-block;
+    background-color: #ffff00;
+    padding: 0px 10px;
+    border-color: #000000;
+    border-style: solid;
+    border-right: none;
+    border-top: none;
+}
+.text { /* Text inside Sections */
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    color: #000000;
+    line-height: 25px;
+    margin-top: 45px;
+    margin-left: 15px;
+}
+
+@media only screen and (min-width: 992px) { /* Desktop View */
+    h1 {
+        font-size: 2.734em;
+    }
+    .container {
+        display: flex;                  
+        flex-direction: row;            
+        flex-wrap: nowrap;              
+        justify-content: space-between; 
+    }
+    .section {
+        margin: 50px 15px;
+    }
+    p.head {
+        margin-top: 0;
+        font-size: 1.953em;
+    }
+     .text {
+        font-size: 1.563em;
+        line-height: 25px;
+        margin-top: 45px;
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { /* Tablet View */
+    body {
+        margin: 0px 15px;
+    }
+    #box-one, #box-two {
+        width: 47.5%;
+        display: inline-block;
+    }
+    #box-one {
+        float: left;
+    }
+    #box-two {
+        float: right;
+    }
+    #box-three {
+        clear: both;
+    }
+}
+
+@media only screen and (max-width: 767px) { /* Mobile View */
+    body {
+        margin: 0px 60px;
+    }
+    .text {
+        margin-top: 60px;
+    }
+}
