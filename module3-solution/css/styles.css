@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap'); /* Font for Heading */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); /* Font for Text */
+html { 
+  scroll-behavior: smooth; /* Allows Smooth Scrolling of Website when a Button on the Navbar is clicked */
+}
+.container { /* Code used to position FOOD, LLC heading to the left */
+  margin-left: 0;
+  margin-top: 0;
+}
+#header-nav { /* Styles for Navbar */
+  background-color: #999999;
+  height: 80px;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand { /* Styles for FOOD, LLC heading's <div> element */
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Styles for FOOD, LLC heading */
+  font-family: 'Architects Daughter', cursive;
+  color: #000000;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: -10px 0 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus { 
+  text-decoration: none; /* Code to remove underline under FOOD, LLC heading when hovered upon */
+}
+#nav-list { /* Styles for Dropdown Menu Options of Collapsed Menu*/
+  background-color: #999999;
+}
+#nav-list a { /* Styles for Text in Dropdown Menu Options of Collapsed Menu */
+  color: #000000;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 25px;
+}
+#nav-list a:hover { /* Styles for when one clicks on Options in Dropdown Menu */
+  background: #E7E7E7;
+}
+.navbar-header button.navbar-toggle { /* Styles to position Collapsed Menu Button inside Navbar */
+  clear: both;
+  margin-top: -30px;
+}
+#main-head { /* Our Menu Heading */
+  font-family: 'Architects Daughter', cursive;
+  font-size: 75px;
+}
+.main { /* Sections for the Main Content */
+  background-color: #999999;
+  margin: 20px 25px;
+  padding: 0;
+  border-style: solid;
+}
+.subhead { /* Styles for Subhead inside Sections */
+  font-family: 'Architects Daughter', cursive;
+  color: #000000;
+  font-size: 50px;
+  padding-top: 15px;
+  border-bottom: solid;
+  border-width: 100%;
+  margin: 0;
+}
+.text { /* Styles for Text inside Sections */
+  font-family: 'Roboto', sans-serif;
+  padding: 15px;
+  font-size: 25px;
+}
